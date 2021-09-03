@@ -75,21 +75,7 @@ add_filter( 'wp_login_errors', 'my_login_form_lock_down', 90, 2 );
  * Provide a secret way to show the login form as a url variable in 
  * case of emergencies.
  */
-function my_login_form_lock_down( $errors, $redirect_to ){
-  // access the login form like so:  localhost/wp-login.php?secretform=yesplease
-  $secret_key = "secretform";
-  $secret_password = "yesplease";
-  
-  if ( !isset( $_GET[ $secret_key ] ) || $_GET[ $secret_key ] != $secret_password ) {
-    login_header(__('Log In'), '', $errors);
-    echo "</div>";
-    do_action( 'login_footer' );
-    echo "</body></html>";
-    exit;
-  }
-  
-  return $errors;
-}
+
 
  * Custom template tags for this theme.
  */
@@ -197,3 +183,18 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+function my_login_form_lock_down( $errors, $redirect_to ){
+  // access the login form like so:  localhost/sriherobgyn/wp-login.php?secretform=yesplease
+  $secret_key = "secretform";
+  $secret_password = "yesplease";
+  
+  if ( !isset( $_GET[ $secret_key ] ) || $_GET[ $secret_key ] != $secret_password ) {
+    login_header(__('Log In'), '', $errors);
+    echo "</div>";
+    do_action( 'login_footer' );
+    echo "</body></html>";
+    exit;
+  }
+  
+  return $errors;
+}
