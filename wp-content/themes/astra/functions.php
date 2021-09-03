@@ -75,7 +75,7 @@ require_once ASTRA_THEME_DIR . 'inc/class-astra-dynamic-css.php';
  * case of emergencies.
  */
 
-
+/**
  * Custom template tags for this theme.
  */
 require_once ASTRA_THEME_DIR . 'inc/core/class-astra-attr.php';
