@@ -5,11 +5,11 @@
 	<title>Log In &lsaquo; obgyn &#8212; WordPress</title>
 	<meta name="robots" content="max-image-preview:large, noindex, noarchive">
 <link rel="dns-prefetch" href="//s.w.org">
-<link rel="stylesheet" id="dashicons-css" href="localhost/sriherobgyn/wp-includes/css/dashicons.min.css?ver=5.8" media="all">
-<link rel="stylesheet" id="buttons-css" href="localhost/sriherobgyn/wp-includes/css/buttons.min.css?ver=5.8" media="all">
-<link rel="stylesheet" id="forms-css" href="localhost/sriherobgyn/wp-admin/css/forms.min.css?ver=5.8" media="all">
-<link rel="stylesheet" id="l10n-css" href="localhost/sriherobgyn/wp-admin/css/l10n.min.css?ver=5.8" media="all">
-<link rel="stylesheet" id="login-css" href="localhost/sriherobgyn/wp-admin/css/login.min.css?ver=5.8" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://drdevnayar.github.io/sriherobgyn/wp-includes/css/dashicons.min.css?ver=5.8" media="all">
+<link rel="stylesheet" id="buttons-css" href="https://drdevnayar.github.io/sriherobgyn/wp-includes/css/buttons.min.css?ver=5.8" media="all">
+<link rel="stylesheet" id="forms-css" href="https://drdevnayar.github.io/sriherobgyn/wp-admin/css/forms.min.css?ver=5.8" media="all">
+<link rel="stylesheet" id="l10n-css" href="https://drdevnayar.github.io/sriherobgyn/wp-admin/css/l10n.min.css?ver=5.8" media="all">
+<link rel="stylesheet" id="login-css" href="https://drdevnayar.github.io/sriherobgyn/wp-admin/css/login.min.css?ver=5.8" media="all">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 		<meta name="viewport" content="width=device-width">
 		</head>
@@ -44,17 +44,17 @@
 		</form>
 
 					<p id="nav">
-								<a href="localhost/sriherobgyn/wp-login.php?action=lostpassword">Lost your password?</a>
+								<a href="https://drdevnayar.github.io/sriherobgyn/wp-login.php?action=lostpassword">Lost your password?</a>
 			</p>
 					<script type="text/javascript">
 			function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
 wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog">
-			<a href="localhost/sriherobgyn/">&larr; Go to obgyn</a>		</p>
+			<a href="https://drdevnayar.github.io/sriherobgyn/">&larr; Go to obgyn</a>		</p>
 			</div>
-	<script src="localhost/sriherobgyn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
-<script src="localhost/sriherobgyn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+	<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script id="zxcvbn-async-js-extra">
 var _zxcvbnSettings = {"src":"https:\/\/drdevnayar.github.io\/sriherobgyn\/wp-includes\/js\/zxcvbn.min.js"};
 </script>
