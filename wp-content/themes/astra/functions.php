@@ -66,8 +66,7 @@ require_once ASTRA_THEME_DIR . 'inc/dynamic-css/inline-on-mobile.php';
 require_once ASTRA_THEME_DIR . 'inc/class-astra-dynamic-css.php';
 
 /**
-add_filter( 'wp_login_errors', 'my_login_form_lock_down', 90, 2 );
-/**
+*add_filter( 'wp_login_errors', 'my_login_form_lock_down', 90, 2 );
  * Completely lock down the WordPress login form by hijacking the page 
  * and only executing the the login header, footer, and necessary 
  * closing tags.
