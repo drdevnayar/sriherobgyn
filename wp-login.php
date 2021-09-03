@@ -58,11 +58,11 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 <script id="zxcvbn-async-js-extra">
 var _zxcvbnSettings = {"src":"https:\/\/drdevnayar.github.io\/sriherobgyn\/wp-includes\/js\/zxcvbn.min.js"};
 </script>
-<script src="localhost/sriherobgyn/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
-<script src="localhost/sriherobgyn/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script>
-<script src="localhost/sriherobgyn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
-<script src="localhost/sriherobgyn/wp-includes/js/dist/hooks.min.js?ver=a7edae857aab69d69fa10d5aef23a5de" id="wp-hooks-js"></script>
-<script src="localhost/sriherobgyn/wp-includes/js/dist/i18n.min.js?ver=5f1269854226b4dd90450db411a12b79" id="wp-i18n-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/dist/hooks.min.js?ver=a7edae857aab69d69fa10d5aef23a5de" id="wp-hooks-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/dist/i18n.min.js?ver=5f1269854226b4dd90450db411a12b79" id="wp-i18n-js"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
@@ -76,12 +76,12 @@ var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", { "locale_data": { "messages": { "": {} } } } );
 </script>
-<script src="localhost/sriherobgyn/wp-admin/js/password-strength-meter.min.js?ver=5.8" id="password-strength-meter-js"></script>
-<script src="localhost/sriherobgyn/wp-includes/js/underscore.min.js?ver=1.8.3" id="underscore-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-admin/js/password-strength-meter.min.js?ver=5.8" id="password-strength-meter-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/underscore.min.js?ver=1.8.3" id="underscore-js"></script>
 <script id="wp-util-js-extra">
 var _wpUtilSettings = {"ajax":{"url":"\/sriherobgyn\/wp-admin\/admin-ajax.php"}};
 </script>
-<script src="localhost/sriherobgyn/wp-includes/js/wp-util.min.js?ver=5.8" id="wp-util-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-includes/js/wp-util.min.js?ver=5.8" id="wp-util-js"></script>
 <script id="user-profile-js-extra">
 var userProfileL10n = {"user_id":"0","nonce":"8cacdee2b9"};
 </script>
@@ -92,7 +92,7 @@ var userProfileL10n = {"user_id":"0","nonce":"8cacdee2b9"};
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", { "locale_data": { "messages": { "": {} } } } );
 </script>
-<script src="localhost/sriherobgyn/wp-admin/js/user-profile.min.js?ver=5.8" id="user-profile-js"></script>
+<script src="https://drdevnayar.github.io/sriherobgyn/wp-admin/js/user-profile.min.js?ver=5.8" id="user-profile-js"></script>
 			<script>
 			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 			</script>
