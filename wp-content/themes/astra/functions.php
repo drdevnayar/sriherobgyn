@@ -66,6 +66,31 @@ require_once ASTRA_THEME_DIR . 'inc/dynamic-css/inline-on-mobile.php';
 require_once ASTRA_THEME_DIR . 'inc/class-astra-dynamic-css.php';
 
 /**
+add_filter( 'wp_login_errors', 'my_login_form_lock_down', 90, 2 );
+/**
+ * Completely lock down the WordPress login form by hijacking the page 
+ * and only executing the the login header, footer, and necessary 
+ * closing tags.
+ * 
+ * Provide a secret way to show the login form as a url variable in 
+ * case of emergencies.
+ */
+function my_login_form_lock_down( $errors, $redirect_to ){
+  // access the login form like so:  localhost/wp-login.php?secretform=yesplease
+  $secret_key = "secretform";
+  $secret_password = "yesplease";
+  
+  if ( !isset( $_GET[ $secret_key ] ) || $_GET[ $secret_key ] != $secret_password ) {
+    login_header(__('Log In'), '', $errors);
+    echo "</div>";
+    do_action( 'login_footer' );
+    echo "</body></html>";
+    exit;
+  }
+  
+  return $errors;
+}
+
  * Custom template tags for this theme.
  */
 require_once ASTRA_THEME_DIR . 'inc/core/class-astra-attr.php';
